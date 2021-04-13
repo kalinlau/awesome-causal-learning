@@ -1,5 +1,5 @@
 # awesome-causal-learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-Causality with machine learning, topic including causal represenation learning, causal reinforcement learning
+Research combines causal inference with machine learning, topic includes CausalML, Causal Representation learning, Causal Reinforcement Learning with its applicaiton in NLP and CV.
 
 ## Table of Contents
 
@@ -105,8 +105,18 @@ Causality with machine learning, topic including causal represenation learning, 
 | Conditional Treatment-adversarial Learning Based Matching    | [Yao, Liuyi, Sheng Li, Yaliang Li, Hongfei Xue, Jing Gao, and Aidong Zhang. "On the estimation of treatment effect with text covariates." In Proceedings of the 28th International Joint Conference on Artificial Intelligence, pp. 4106-4113. AAAI Press, 2019.](https://pdfs.semanticscholar.org/2e2f/39232771711248940f68c3c1d6bd0a22c3e4.pdf) | NA                                                           |
 | Causal Inferences Using Texts                                | [Egami, Naoki, Christian J. Fong, Justin Grimmer, Margaret E. Roberts, and Brandon M. Stewart. "How to make causal inferences using texts." arXiv preprint arXiv:1802.02163 (2018).](https://arxiv.org/pdf/1802.02163.pdf) | NA                                                           |
 
+#### CV: debias
 
-#### CV
+| Name | Paper                                                        | Code                                             |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------ |
+| Class-Incremental Learning | [Distilling Causal Effect of Data in Class-Incremental Learning](https://arxiv.org/abs/2103.01737) | [Python](https://github.com/JoyHuYY1412/DDE_CIL) |
+|Counterfactual VQA|[Counterfactual VQA: A Cause-Effect Look at Language Bias](https://arxiv.org/abs/2006.04315)CVPR2021|[Python](https://github.com/yue-zhongqi/gcm-cf)|
+|Deconfounded Image Captioning|[Causal Attention for Vision-Language Tasks](https://arxiv.org/abs/2103.03493)CVPR2021|[Python](https://github.com/yangxuntu/lxmertcatt)|
+|Weakly-supervised Temporal Action Localization|[The Blessings of Unlabeled Background in Untrimmed Videos](https://arxiv.org/abs/2103.13183)|[Python](https://github.com/liuyuancv/WTAL_blessing)|
+|Visual Dialog|[Two Causal Principles for Improving Visual Dialog](https://arxiv.org/abs/1911.10496) CVPR 2020|[Python](https://github.com/simpleshinobu/visdial-principles)|
+|Visual Common Sense|[Visual Commonsense R-CNN](https://arxiv.org/abs/2002.12204) CVPR2020|[Python](https://github.com/Wangt-CN/VC-R-CNN)|
+|Scene Graph Generation|[Unbiased Scene Graph Generation from Biased Training](https://arxiv.org/abs/2002.11949)CVPR2021,oral|[Python](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch)|
+|Interventional Few-Shot Learning|[Interventional Few-Shot Learning](https://arxiv.org/pdf/2009.13000.pdf)|[Python](https://github.com/yue-zhongqi/ifsl)|
 
 ## causal representation learning
 
