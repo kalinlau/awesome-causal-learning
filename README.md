@@ -54,8 +54,8 @@ Research combines causal inference with machine learning, topic includes CausalM
 |Name|Paper|Code|
 |---|---|---|
 |Causal Dose-Response Curves / Causal Curves|[Kobrosly, R. W., (2020). causal-curve: A Python Causal Inference Package to Estimate Causal Dose-Response Curves. Journal of Open Source Software, 5(52), 2523, https://doi.org/10.21105/joss.02523](https://joss.theoj.org/papers/10.21105/joss.02523)|[Python](https://github.com/ronikobrosly/causal-curve)|
-|RespSVM|[Kallus, Nathan. "Classifying Treatment Responders Under Causal Effect Monotonicity." arXiv preprint arXiv:1902.05482 (2019)](https://arxiv.org/pdf/1902.05482.pdf)|NA|
-|Dose response networks (DRNets)|[Schwab, Patrick, Lorenz Linhardt, Stefan Bauer, Joachim M. Buhmann, and Walter Karlen. "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves." arXiv preprint arXiv:1902.00981 (2019).](https://arxiv.org/pdf/1902.00981.pdf)|[Python](https://github.com/d909b/drnet)|
+|RespSVM|[Kallus, Nathan. "Classifying Treatment Responders Under Causal Effect Monotonicity." ICML2019](https://arxiv.org/pdf/1902.05482.pdf)|NA|
+|Dose response networks (DRNets)|[Schwab, Patrick, Lorenz Linhardt, Stefan Bauer, Joachim M. Buhmann, and Walter Karlen. "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves." AAAI2020.](https://arxiv.org/pdf/1902.00981.pdf)|[Python](https://github.com/d909b/drnet)|
 
 #### Instrumental Variables
 
@@ -67,7 +67,7 @@ Research combines causal inference with machine learning, topic includes CausalM
 #### Multi-Cause: An important discussion
 | Name         | Paper                                                        | Code                                                        |
 | ------------ | ------------------------------------------------------------ | ----------------------------------------------------------- |
-| Deconfounder | [Wang, Yixin, and David M. Blei. "The blessings of multiple causes." arXiv preprint arXiv:1805.06826 (2018).](https://arxiv.org/abs/1805.06826) | [Python](https://github.com/blei-lab/deconfounder_tutorial) |
+| Deconfounder | [Wang, Yixin, and David M. Blei. "The blessings of multiple causes." Journal of the American Statistical Association, 2019](https://arxiv.org/abs/1805.06826) | [Python](https://github.com/blei-lab/deconfounder_tutorial) |
 |              | [Imai, Kosuke, and Zhichao Jiang. "Discussion of "The Blessings of Multiple Causes" by Wang and Blei."](https://imai.fas.harvard.edu/research/files/deconfounder.pdf) | NA                                                          |
 |              | [D'Amour, Alexander. "On multi-cause causal inference with unobserved confounding: Counterexamples, impossibility, and alternatives." arXiv preprint arXiv:1902.10286 (2019).](https://arxiv.org/abs/1902.10286) | NA                                                          |
 |              | [Ranganath, Rajesh, and Adler Perotte. "Multiple causal inference with latent confounding." arXiv preprint arXiv:1805.08273 (2018).](https://arxiv.org/pdf/1805.08273) | NA                                                          |
@@ -107,18 +107,24 @@ Research combines causal inference with machine learning, topic includes CausalM
 
 #### CV: debias
 
-| Name | Paper                                                        | Code                                             |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------ |
-| Class-Incremental Learning | [Distilling Causal Effect of Data in Class-Incremental Learning](https://arxiv.org/abs/2103.01737) | [Python](https://github.com/JoyHuYY1412/DDE_CIL) |
-|Counterfactual VQA|[Counterfactual VQA: A Cause-Effect Look at Language Bias](https://arxiv.org/abs/2006.04315)CVPR2021|[Python](https://github.com/yue-zhongqi/gcm-cf)|
-|Deconfounded Image Captioning|[Causal Attention for Vision-Language Tasks](https://arxiv.org/abs/2103.03493)CVPR2021|[Python](https://github.com/yangxuntu/lxmertcatt)|
-|Weakly-supervised Temporal Action Localization|[The Blessings of Unlabeled Background in Untrimmed Videos](https://arxiv.org/abs/2103.13183)|[Python](https://github.com/liuyuancv/WTAL_blessing)|
-|Visual Dialog|[Two Causal Principles for Improving Visual Dialog](https://arxiv.org/abs/1911.10496) CVPR 2020|[Python](https://github.com/simpleshinobu/visdial-principles)|
-|Visual Common Sense|[Visual Commonsense R-CNN](https://arxiv.org/abs/2002.12204) CVPR2020|[Python](https://github.com/Wangt-CN/VC-R-CNN)|
-|Scene Graph Generation|[Unbiased Scene Graph Generation from Biased Training](https://arxiv.org/abs/2002.11949)CVPR2021,oral|[Python](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch)|
-|Interventional Few-Shot Learning|[Interventional Few-Shot Learning](https://arxiv.org/pdf/2009.13000.pdf)|[Python](https://github.com/yue-zhongqi/ifsl)|
+| Name | Paper                                                        | Code                                             | J./C. |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------ | ---- |
+| Class-Incremental Learning | [Distilling Causal Effect of Data in Class-Incremental Learning](https://arxiv.org/abs/2103.01737) | [Python](https://github.com/JoyHuYY1412/DDE_CIL) | CVPR21 |
+|Counterfactual VQA|[Counterfactual VQA: A Cause-Effect Look at Language Bias](https://arxiv.org/abs/2006.04315)|[Python](https://github.com/yue-zhongqi/gcm-cf)| CVPR21 |
+|Deconfounded Image Captioning|[Causal Attention for Vision-Language Tasks](https://arxiv.org/abs/2103.03493)|[Python](https://github.com/yangxuntu/lxmertcatt)| CVPR21 |
+|Weakly-supervised Temporal Action Localization|[The Blessings of Unlabeled Background in Untrimmed Videos](https://arxiv.org/abs/2103.13183)|[Python](https://github.com/liuyuancv/WTAL_blessing)| CVPR21 |
+|Visual Dialog|[Two Causal Principles for Improving Visual Dialog](https://arxiv.org/abs/1911.10496)|[Python](https://github.com/simpleshinobu/visdial-principles)| CVPR20 |
+|Visual Common Sense|[Visual Commonsense R-CNN](https://arxiv.org/abs/2002.12204)|[Python](https://github.com/Wangt-CN/VC-R-CNN)| CVPR20 |
+|Scene Graph Generation|[Unbiased Scene Graph Generation from Biased Training](https://arxiv.org/abs/2002.11949)|[Python](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch)| CVPR21,oral |
+|Interventional Few-Shot Learning|[Interventional Few-Shot Learning](https://arxiv.org/pdf/2009.13000.pdf)|[Python](https://github.com/yue-zhongqi/ifsl)| NeurIPS20 |
 
 ## causal representation learning
+|Name|Paper|Code|
+|---|---|---|
+||[Toward causal representation learning](https://ieeexplore.ieee.org/iel7/5/4357935/09363924.pdf)|NA|
 
 ## causal reinforcement learning
+|Name|Paper|Code|
+|---|---|---|
+||[Causal Reinforcement Learning](https://crl.causalai.net/)|NA|
 
