@@ -67,7 +67,7 @@ Research combines causal inference with machine learning, topic includes CausalM
 #### Multi-Cause: An important discussion
 | Name         | Paper                                                        | Code                                                        |
 | ------------ | ------------------------------------------------------------ | ----------------------------------------------------------- |
-| Deconfounder | [Wang, Yixin, and David M. Blei. "The blessings of multiple causes." arXiv preprint arXiv:1805.06826 (2018).](https://arxiv.org/abs/1805.06826) | [Python](https://github.com/blei-lab/deconfounder_tutorial) |
+| Deconfounder | [Wang, Yixin, and David M. Blei. "The blessings of multiple causes." arXiv preprint arXiv:1805.06826 (2018).](https://arxiv.org/abs/1805.06826) Journal of the American Statistical Association, 2019 | [Python](https://github.com/blei-lab/deconfounder_tutorial) |
 |              | [Imai, Kosuke, and Zhichao Jiang. "Discussion of "The Blessings of Multiple Causes" by Wang and Blei."](https://imai.fas.harvard.edu/research/files/deconfounder.pdf) | NA                                                          |
 |              | [D'Amour, Alexander. "On multi-cause causal inference with unobserved confounding: Counterexamples, impossibility, and alternatives." arXiv preprint arXiv:1902.10286 (2019).](https://arxiv.org/abs/1902.10286) | NA                                                          |
 |              | [Ranganath, Rajesh, and Adler Perotte. "Multiple causal inference with latent confounding." arXiv preprint arXiv:1805.08273 (2018).](https://arxiv.org/pdf/1805.08273) | NA                                                          |
